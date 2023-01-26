@@ -12,18 +12,20 @@
     <link href="https://fonts.googleapis.com/css2?family=Rubik&family=Work+Sans:wght@400;500&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
 </head>
 
 <body>
     <header>
         <div class="menu-logo">
-        <button>
-            <img src="img/menu.svg" alt="меню">
-        </button>
-        <a href="#">
-            <img src="img/Logo.svg" alt="На главную">
-        </a>
-    </div>
+            <button>
+                <img src="img/menu.svg" alt="меню">
+            </button>
+            <a href="#">
+                <img class="img" src="img/Logo.svg" alt="На главную">
+            </a>
+        </div>
         <ul class="language">
             <li><a href="#">RU</a></li>
             <li><a href="#">|UA</a></li>
@@ -32,12 +34,15 @@
     </header>
     <main>
         <section>
+            <div class="blok1">
             <div class="h">
-            <img src="img/Line.svg" alt="линия">
-            <p class="h-text">Надежные</p>
-        </div>
+                <img src="img/Line.svg" alt="линия">
+                <p class="h-text">Надежные</p>
+            </div>
             <h1>Готовые решения</h1>
-            <img src="img/car.svg" alt="машинка">
+            <img class="car" src="img/car.svg" alt="машинка">
+        </div>
+        <div class="blok2">
             <h2>Комплект БАЗОВЫЙ</h2>
             <p>
                 Проезд на территорию осуществляется при помощи телефонного звонка
@@ -46,10 +51,26 @@
                 <li class="spisok"><span>Шлагбаум</span></li>
                 <li class="spisok"><span>Радар для обнаружения авто</span></li>
             </ul>
-            <div class="bottom-cont">
-            <p>от 880$</p>
-            <a class="Link-button" href="#">Купить</a>
         </div>
+            <div class="bottom-cont">
+                <p>от 880$</p>
+                <a class="Link-button" href="#">Купить</a>
+            </div>
+        </section>
+        <section>
+            <h1>Задание 2</h1>
+            <form action="//httpbin.org/post" class="form-start" name="contact" method="POST" data-netlify="true">
+                <input type="hidden">
+                <label>Номер телефона:<input type="tel" placeholder="+7 (9XX) XXX-XXXX" name="Number" required></label>
+                <label>Имя файла:<input type="text" placeholder="Name" name="Name" required></label>
+                <fieldset>
+                    <legend>Вид печати:</legend>
+                    <label>Цифровая<input type="radio" value="digital" name="seal"></label>
+                    <label>Офсетная<input type="radio" value="offset" name="seal"></label>
+                </fieldset>
+                <button class="form-button" type="submit"><i class="material-symbols-outlined">eaaa</i>Отправить</button>
+                
+            </form>
         </section>
     </main>
 </body>
