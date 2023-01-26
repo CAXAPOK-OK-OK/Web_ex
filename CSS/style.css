@@ -1,0 +1,77 @@
+:root {
+    font-size: 62.5%;
+    font-weight: 500;
+    font-family: 'Rubik', sans-serif;
+    --primary-color: #FFFFFF;
+    --primary-color2: #009A44;
+    --primary-color3: #313647;
+    box-sizing: border-box;
+    min-width: 375px;
+}
+.Link-button{
+    background-color: var(--primary-color2);
+    padding: 9px 16px 10px;
+    color: var(--primary-color);
+}
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: auto;
+    margin-right: 1.5rem;
+    margin-left: 1.6rem;
+    min-height: 5.4rem;
+}
+.language{
+    display: none;
+}
+.menu-logo{
+    display: flex;
+}
+p{
+    font-size: 1.5rem;
+    color: var(--primary-color3);
+    margin: 1.6rem auto 1.6rem 1.6rem;
+}
+h1{
+    font-size: 2.8rem;
+    color: var(--primary-color3);
+    margin-left: 1.6rem;
+    margin-top: 0.4rem;
+    margin-bottom: 4rem;
+}
+h2{
+    font-size: 2rem;
+    color: var(--primary-color3);
+    margin: 3.2rem auto 1.6rem 1.6rem;
+}
+
+.h {
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 1.6rem;
+    margin-bottom: 0.4rem;
+}
+
+.h-text{
+    font-size: 1.4rem;
+    color: var(--primary-color2);
+    margin-left: 1.5rem;
+}
+
+.spisok{
+    font-size: 1.5rem;
+    color: var(--primary-color2);
+    margin: 0.5rem auto 0.5rem 3.6rem;
+}
+
+li span{
+    color: var(--primary-color3);
+}
+
+ul{
+    padding: 0;
+}
+
+.bottom-cont
+{display: flex;flex-direction: row;justify-content: center;flex-wrap: nowrap;}
